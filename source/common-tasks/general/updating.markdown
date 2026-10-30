@@ -10,6 +10,8 @@ related:
     title: App update backups
   - docs: /integrations/update/
     title: Update integration
+  - docs: /common-tasks/general/automatic-updates/
+    title: Automatic Home Assistant updates
 ---
 
 Home Assistant shows the available updates for your integrations and devices in one place. On {% term "Home Assistant Operating System" %}, this includes updates for Home Assistant itself and your apps. You decide when to install them. You can install one update at a time, or all updates of an integration or of your apps at once.
@@ -29,7 +31,7 @@ Home Assistant checks for updates regularly, and shows them on the **Settings** 
 
 ## Updating Home Assistant itself
 
-Before you update Home Assistant itself, prepare a backup and check the release notes for changes that affect your setup. The steps depend on your installation type:
+Before you update Home Assistant itself, prepare a backup and check the release notes for changes that affect your setup. On {% term "Home Assistant Operating System" %} with the stable update channel, you can also [configure automatic Home Assistant patch updates](/common-tasks/general/automatic-updates/). The steps for manual updates depend on your installation type:
 
 - {% term "Home Assistant Operating System" %}: Refer to [Updating Home Assistant Core](/common-tasks/os/#updating-home-assistant-core) and [Updating the Home Assistant Operating System](/common-tasks/os/#updating-the-home-assistant-operating-system).
 - {% term "Home Assistant Container" %}: You update the container. Home Assistant itself doesn't show on the **Updates** page. Refer to [Updating Home Assistant Container](/common-tasks/container/#update).
